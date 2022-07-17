@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Montserrat', sans-serif; 
+    width: 100vw;  
+    background-color: #69aff6;
+}
+header {
+    display: flex;
+    justify-content: center;
+    background-color: #69aff6;
+    max-width: 100%;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+   display: flex;
+   justify-content: space-around;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    align-items: center;
+    margin-left: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#barra-pesquisa {
+    border:solid 1px;
+    border-radius:15px;
+    height: 32px;
+    border: none;
+    display: flex;
+    align-items: center;
+    background-color: beige;
+    border: none;
+
+}
+
+#txt-busca {
+  background-color:transparent;
+  padding-left:5px;
+  font-style:italic;
+  font-size:18px;
+  border:none;
+  height:32px;
+  width:260px;
+  align-items: center;
+  border-radius: 20px;
+  border: none;
+}
+
+main {
+    display: flex;
+    gap: 10px;
+    background-color: #69aff6;
+}
+
+#Produtos {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.ecomercItem {
+    display: flex;
+    border: 1px solid;
+    height: 19rem;
+    width: 250px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+}
+
+.zap{
+    width:20px ;
+}
+a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-pedido {
+    height: 2rem;
+    border-radius: 16px;
+    background-color: rgb(23, 168, 101);
+    width: 6.7rem;
+    justify-content: center;
+    align-items: center;
+}
+.btn-encomendar {
+    height: 2rem;
+    border-radius: 16px;
+    background-color: rgb(23, 168, 101);
+    width: 6.7rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+/* 
+img{
+    width: 150px;
+} */
+
+.imgProd{
+width: 10rem;
+}
+
+
